@@ -1,0 +1,170 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header, nav, main, footer{
+    width: 100%;
+    margin: 0 auto;
+    color: #83CCCC;
+    padding: 30px;
+}
+header{
+    height: 50px;
+    background-color: #83CCCC;
+    text-align: center;
+}
+nav{
+    height: 30px;
+    background-color: #9BC1BC;
+    text-align: center;
+}
+main{
+    height: auto;
+    background-color: #4C9307;
+    text-align: center;
+}
+footer{
+    height: 80px;
+    background-color: #0747AD;
+    text-align: center;
+    color: black;
+}
+section{
+    width: 80%;
+    height: 380px;
+    background-color: #0747AD;
+}
+
+section{
+    width: auto;
+    height: auto;
+    background-color: #0747AD;
+    margin: 20px;
+    display: inline-block;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 20px;
+}
+a:link, a:visited{
+    color: #FAF1BB;
+}
+a:hover{
+    color: #0747AD;
+}
+table{
+    width: 80%;
+    border: 7px solid #4C9307;
+    margin: 30px auto;
+    border-collapse: collapse;
+}
+table td, table th{
+     border: 5px solid #ED6A5A;
+    
+}
+table th{
+    background-color: #4C9307;
+    color: #E07D46;
+    height: 50px;
+    
+}
+table td{
+  /*background-color: #83CCCC;*/
+    color: #0747AD;
+    height: 30px;
+    padding: 10px;
+}
+.tabla_dos{
+    width: auto;
+    background-color: #FAF1BB;
+}
+.tabla_dos td{
+    background-color: transparent;
+    color: beige: #FAF1BB;
+    font-weight: bold;
+}
+.tabla_dos th, #tabla_dos td{
+    border: 2px solid #ED6A5A;
+}
+tr:hover{
+    background-color: #ED6A5A;
+    color: #E07D46;
+}
+.tabla_dos tr:hover{
+    background-color: #F9F076;
+    color: #D17500;
+}
+
+
+.tabla_uno{
+     width: 800px;
+    background-color: #FAF1BB; 
+}
+.tabla_uno td{
+    background-color: transparent;
+    color: beige: #FAF1BB;
+    font-weight: bold;
+}
+.tabla_uno th, #tabla_dos td{
+    border: 2px solid #ED6A5A;
+}
+tr:hover{
+    /*background-color: #ED6A5A;*/
+     /*color: #E07D46;*/
+}
+.tabla_uno tr td:hover{
+    background-color: #F9F076;
+    color: #D17500;
+}
+.tabla_tres{
+    background-color: transparent; 
+}
+.tabla_tres tr:nth-child(even){
+    background-color: #FAF1BB;
+}
+.tabla_tres tr:nth-child(odd){
+    background-color: #F9F076;
+}
+.imagen_perfil{
+	width: 10%;
+	height: auto;
+}
+    
+
+
+   main section form {
+    width: 50%;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: #282F3A;
+}
+section form label {
+    display: block;
+}
+section form label {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+input[type=text]  ,input[type=email] {
+    width: 100%;
+}
+#fname {
+}
+section form label {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+main section h6 {
+}
+section form input[type=submit] {
+    width: 40%;
+    color: #0C1F67;
+    border-width: 2px;
+    margin-top: 10px;
+}
+
+

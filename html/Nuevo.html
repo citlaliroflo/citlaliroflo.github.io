@@ -1,0 +1,214 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>FORMULARIO</title>
+	 <style type="text/css">
+		  *{
+                margin: 0;
+                padding:0;
+            }
+            header,nav,main,footer{
+                 width: 969px; 
+               margin:0 auto;
+                padding: 20px;
+            } 
+         header{
+               /*width: 960px;*/
+               height: 100px; 
+             background-color: coral;
+               color: sienna;
+             text-align: center;
+               }
+            nav{
+                background-color: cornflowerblue;
+                height: 80px;
+            }
+            main{
+                background-color: darkseagreen; width: 
+            }
+            footer{
+                background-color: brown;
+                height: 60px;
+                text-align: center;
+                color: darkcyan
+            }
+            section{
+                width: 800px;
+                background-color:antiquewhite;
+                /*margin-top: 30px:
+                margin-bottom:30px;
+                margin-left: auto;
+                margin-right: auto;*/
+                margin: 50px auto
+                    padding: 30px;
+            }
+            p{
+                color: black;    
+            }
+            article section p{
+                width:  500px;
+                background-color: crimson;
+            }
+            article section p{
+                color: darkblue;
+            }
+            h2, h3{
+                color: brown;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+            a{
+                margin: 0px 10px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+            alink{
+                color: blueviolet;
+            }
+            a:hover{
+                color: chocolate;
+                text-decoration: underline;
+            }
+            main nav{
+                width: 500px;
+                height: 50px;
+                text-align: center;
+                background-color:azure;
+            }
+            main nav a{
+                text-decoration: none;
+                padding: 10px;
+                border-radius: 20px;
+            }
+            main nav alink{
+                color: antiquewhite;
+                background-color: azure;
+                border: 2px solid red;
+            } 
+            main nav a:visited{
+                border: 2px solid beige;
+                color: antiquewhite;
+            }
+            main nav a:hover{
+                text-decoration: none;
+                color: burlywood;
+                background-color: cadetblue;
+            }
+            img{
+                width: 480;
+                height: auto;
+                display: block;
+                margin: 20px auto;
+            }
+            
+           ul,ol{
+               margin: 20px;
+               color: magenta;
+               list-style-type: decimal;  
+               padding:30px;
+            }
+            ol{
+                list-style-type:  upper-alpha;
+            }
+            ul{
+                list-style-image: url(interfaz/imagenes/fiesteros.png);
+            }
+            #vineta_1{
+                list-style-image: url(interfaz/imagenes/fiesteros.png);
+                padding: 30px;
+            }
+            nav ul{
+                list-style-type: none;
+                text-align: center;
+            }
+            nav ul li{
+                display: inline-block;
+                border: 1px solid brown;
+            }
+            nav ul li a{
+                padding: 30px;
+            }
+            nav ul li a: visited{
+                color: cadetblue;
+            }
+            nav ul li a:hover{
+                text-decoration: none;
+                color: chocolate;
+            }
+	</style>
+</head>
+
+<body>
+	<header>
+		 <h1>Citlali Rodriguez Flores</h1>
+	</header>
+	<nav>
+	  <ul>
+	    <li>
+	      <li><a href="../index.html">Inicio&nbsp;</a>
+	        <li><a href="Galerias.html">Galeria&nbsp;</a>
+	          <li><a href="practicas.html">Practicas&nbsp;</a>
+	            <li><a href="contacto.html">Contacto</a>&nbsp;</li>
+	          </li>
+	        </li>
+	      </li>
+	    </li>
+      </ul>
+	</nav>
+	<main>
+		<section>
+				<form action="contacto.html" method="get">
+					<label for="fname">Nombre:</label>
+					<input type="text" id="fname" name="fname" value="">
+					
+					<label for="lname">Apellido:</label>
+					<input type="text" id="lname" name="lname" value="">
+					
+					<label for="username">Nombre del usuario:</label><br>
+                    <input type="text" id="username" name="username"><br>
+                    <label for="pwd">contraseña:</label><br>
+                    <input type="password" id="pwd" name="pwd">
+				
+					<label for="fmail">Email:</label>
+					<input type="email"id="fmail" name="fmail" value="">
+					
+					<label for="html">sexo:</label><br>
+                    <input type="radio" id="css" name="fav_language" value="CSS">
+                    <label for="css">hombre</label><br>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+					<label for="css">mujer</label><br>
+                    <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+					
+			
+               
+					<label for="fmensaje">Mensaje:</label>
+					
+					<textarea id="fmensaje" name="fmensaje" rows="5"
+							  maxlength="50">
+						</textarea>
+					<input type="submit" value="Enviar">
+						   
+				    
+					<input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> bailar</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> escuchar musica</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> cocinar</label>
+                  
+				    
+						   
+				
+						   
+						   
+					
+				</form>
+            </section>
+	
+	</main>
+	<footer>
+		<h6> Elaborado por Citlali Rodriguez Flores</h6>
+	</footer>
+</body>
+</html>
